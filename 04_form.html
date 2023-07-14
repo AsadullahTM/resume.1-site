@@ -1,96 +1,100 @@
 <!DOCTYPE html>
 <html lang="ru">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>4 Страница. Формы</title>
-    </head>
-    <body>
-        <header>
-            <h1>Изучение основ HTML и CSS - языков разметки и стилей страницы</h1>
-            <hr color="red" size="3">
-            <p>
-                В результате прохождения курса по <strong><em>HTML</em></strong> и <strong><em>CSS</em></strong> мне необходимо овладеть базовыми навыками и компетенциями <br>по верстке, тегам, семантике, редактированию и структуре <strong><em>HTML</em></strong> и <strong><em>CSS</em></strong>.
-            </p>
-            <hr color="black" size="3">
-        </header>
-        <main>
-            <h2>Работа с формами</h2>
-            <hr align="left" size="3" width="50%">
-            <ol>    
-                <li>
-                    <h3>однострочные формы</h3>
-                    <form>
-                        <div>
-                            <label for="ОТЗЫВ">ОТЗЫВ</label>
-                            <input type="text" id="ОТЗЫВ" placeholder="Ваш отзыв">
-                        </div>
-                        <br>
-                        <div>
-                            <label for="оценка">оценка</label>
-                            <input type="number" id="оценка" max="5" min="1" placeholder="1-5">
-                        </div>
-                        <br>
-                        <div>
-                            <label for="Имя">Имя</label>
-                            <input type="text" id="Имя" placeholder="Ваше имя">
-                        </div>
-                        <br>
-                        <div>
-                            <label for="Email">Email</label>
-                            <input type="email" id="Email" placeholder="Ваш Email">
-                        </div>
-                        <br>
-                        <div>
-                            <label for="Пароль">Пароль</label>
-                            <input type="password" id="Пароль" placeholder="пароль от ЛК">
-                        </div>
-                        <br>
-                        <div>
-                            <button>Отправить</button>
-                        </div>
-                    </form>
-                </li>
-                <hr align="left" width="30%" color="blue">
-                <li>
-                    <h3>многострочные формы</h3>
-                    <form>
-                        <div>
-                            <p>
-                                <label for="message">СООБЩЕНИЕ</label>
-                            </p>    
-                                <textarea id="message" cols="30" rows="10"></textarea>
-                        </div>
-                    </form>
-                </li>    
-            </ol>    
-        </main>
-        <footer>
-            <hr color="black" size="3">
-            <p>
-                Мои соцсети (<strong>навык работы с ссылками</strong>)
-            </p>
-            <p>
-                <div>    
-                    <ul>
-                        <li><a href="https://instagram.com/abdurkaev_tm" target="_blank"><em>Мой Инст</em></a></li>
-                        <li><a href="https://vk.com/abdurkaev" target="_blank"><em>Мой ВК</em></a></li>
-                        <li><a href="https://t.me/Abdurkaev_team" target="_blank"><em>Телега</em></a></li>
-                    </ul>
-                </div>
-            </p>
-            <hr align="left" width="30%">
-            <h3>Навигация</h3>
-            <div>
-                <nav>
-                    <ul>
-                        <li><a href="index.html" target="_blank"><strong>Главная. Резюме</strong></a></li>
-                        <li><a href="02.html" target="_blank"><strong>Изображения</strong></a></li>
-                        <li><a href="03_table.html" target="_blank"><strong>Таблицы</strong></a></li>
-                        <li><a href="04_form.html" target="_blank"><strong>Формы</strong></a></li>
-                    </ul>
-                </nav>    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4 Страница. Формы</title>
+</head>
+<body>
+    <header>
+        <p>
+            <h2>Изучение основ <em>HTML</em> и <em>CSS</em> - языков разметки и стилей страницы</h2>
+        </p>
+        <hr color="red" size="3">
+        <p>
+           <h3>
+                В результате прохождения курса по <em>HTML</em> и <em>CSS</em> мне необходимо овладеть базовыми навыками и компетенциями <br>по верстке, тегам, семантике, редактированию и структуре <em>HTML</em> и <em>CSS</em>.
+            </h3>
+        </p>
+        <hr color="black" size="3">
+    </header>
+    <main>
+        <h1>Работа с формами</h1>
+        <hr align="left" size="3" width="50%">
+        <ol>    
+            <li>
+                <h3>однострочные формы</h3>
+                <form>
+                    <div>
+                        <label for="text1">отзыв</label>
+                        <input type="text" id="text1" placeholder="ваш отзыв">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="text2">оценка</label>
+                        <input type="number" id="text2" max="5" min="1" placeholder="1-5">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="text3">имя</label>
+                        <input type="text" id="text3" placeholder="Ваше имя">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="Email">email</label>
+                        <input type="email" id="Email" placeholder="Ваш Email">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="password">пароль</label>
+                        <input type="password" id="password" placeholder="пароль от ЛК">
+                    </div>
+                    <br>
+                    <div>
+                        <button>отправить</button>
+                    </div>
+                </form>
+            </li>
+            <hr align="left" width="30%" color="blue">
+            <li>
+                <h3>многострочные формы</h3>
+                <form>
+                    <div>
+                        <p>
+                            <label for="message">сообщение</label>
+                        </p>    
+                            <textarea id="message" cols="30" rows="10"></textarea>
+                    </div>
+                </form>
+            </li>    
+        </ol>    
+    </main>
+    <footer>
+        <hr color="black" size="3">
+        <p>
+            Мои соцсети (<strong>навык работы с ссылками</strong>)
+        </p>
+        <p>
+            <div>    
+                <ul>
+                    <li><a href="https://instagram.com/abdurkaev_tm" target="_blank"><em>Мой Инст</em></a></li>
+                    <li><a href="https://vk.com/abdurkaev" target="_blank"><em>Мой ВК</em></a></li>
+                    <li><a href="https://t.me/Abdurkaev_team" target="_blank"><em>Телега</em></a></li>
+                </ul>
             </div>
-        </footer>
-    </body>
+        </p>
+        <hr align="left" width="30%">
+        <h3>Навигация</h3>
+        <div>
+            <nav>
+                <ul>
+                    <li><a href="index.html" target="_blank"><strong>Главная. Резюме</strong></a></li>
+                    <li><a href="02.html" target="_blank"><strong>Изображения</strong></a></li>
+                    <li><a href="03_table.html" target="_blank"><strong>Таблицы</strong></a></li>
+                    <li><a href="04_form.html" target="_blank"><strong>Формы</strong></a></li>
+                </ul>
+            </nav>    
+        </div>
+    </footer>
+</body>
 </html>
