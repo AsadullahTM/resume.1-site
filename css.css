@@ -1,88 +1,89 @@
 body{
-    background-color: rgb(44, 41, 41); color: rgb(255, 255, 255);
+    background-color: rgb(22, 22, 23); color: rgb(255, 255, 255);
     margin: 0;
-    }
+
+}
 
 header{
-    background-color: rgb(174, 170, 170); color: black;
-    }
+    background-color: rgb(144 146 149); color: black;
+    border: none;
+    box-shadow: 0 0 15px 3px rgb(144 146 149);
 
-main{
-    margin: 10px;
 }
 
 footer{
-    background-color: rgb(174, 170, 170); color: black;
-    }
-
-.hfhr {
-    margin: 20px 0;
-    padding: 0;
-    height: 0;
+    background-color: rgb(144 146 149); color: black;
     border: none;
-    box-shadow: 0 0 4px 1px black;
-   }
+    box-shadow: 0 0 15px 3px rgb(144 146 149);
+}
 
-.bt {
-    margin: 20px 0;
-    padding: 0;
-    height: 0;
+.smh{
+    text-align: center;
+    color: rgb(57, 50, 14);
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 0;
+}
+
+.linkssm{
+    list-style-type: none;
+    margin-left: ;  
+    margin-right: 50px;
+    letter-spacing: 10px;
+    text-align: center;
+}
+
+.icons{
+    display: inline-block;
+    margin-top: 2px;
+    
+}
+
+.expr, .bio, .hobby{
+    margin: 50px;
+    
+}
+
+.connect{
+    margin: 50px;
     text-align: right;
-    border: none;
-    box-shadow: 0 0 6px 1px black;
-   }
+}
 
-.mainhr {
-    margin: 20px 0;
-    padding: 0;
-    height: 0;
-    border: none;
-    box-shadow: 0 0 6px 1px grey;
-   }
+.hobby{
+    list-style-position: inside;
+}
 
-.mname {
-    color: rgb(39, 34, 34);
-    padding: 10;
-    }
+h1{
+    text-align: center;
+    color: gold;
+    letter-spacing: 5px;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: block;
+}
 
-    .gold {
-        margin: 20px 0;
-        display: flex;
-        flex-flow: column;
-        align-items: center;
-        justify-content: center;
-        padding: 0vw 0;
-        background: radial-gradient(ellipse at center, #443501 0%,#000000 100%);
-        box-shadow: 0 4px 12px rgba(0,0,0,0.2), 0 16px 20px rgba(0,0,0,0.2);
-    }
-    .gold span {
-        color: #cfc09f;
-        font-family: Times, serif;
-        position: relative;
-        text-transform: uppercase;    
-        font-size: 9vw;
-        letter-spacing: 1vw;
-        line-height: 1;
-        margin: 0;
-        font-weight: 300;
-        text-shadow: -1px 0 1px #c6bb9f, 0 1px 1px #c6bb9f, 5px 5px 10px rgba(0, 0, 0, 0.4), -5px -5px 10px rgba(0, 0, 0, 0.4);
-    }
-    .gold span {
-        font-size: 2vw;
-    }
-    .gold span:before {
-        content: attr(data-double);
-        left: 0;
-        top: 0;
-        position: absolute;    
-        z-index: 1;
-        background: linear-gradient(to bottom, #cfc09f 14%,#634f2c 16%, #cfc09f 20%, #cfc09f 22%,#ffecb3 40%,#3a2c0f 84%); 
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        text-shadow: none;
-    }
-h3{color: #ffecb3;}
-h4{color: #ffecb3;}
+h3{
+    color: #ffecb3;
+}
 
-.sm{display: flex;
-    justify-content: right;}
+h4{
+    color: #ffecb3;
+}
+
+table{
+    table-layout: fixed;
+    border-collapse: collapse;
+    border-spacing: ;
+    border: 3px solid gold;
+    width: 550px;
+}
+
+.friendly{
+    text-align: center;
+    text-transform: uppercase;
+    word-spacing: 3px;
+}
