@@ -1,13 +1,18 @@
 body{
-    background-color: rgb(44, 41, 41); color: whitesmoke;
+    background-color: rgb(44, 41, 41); color: rgb(255, 255, 255);
+    margin: 0;
     }
 
 header{
-    background-color: grey; color: black;
+    background-color: rgb(174, 170, 170); color: black;
     }
 
+main{
+    margin: 10px;
+}
+
 footer{
-    background-color: grey; color: black;
+    background-color: rgb(174, 170, 170); color: black;
     }
 
 .hfhr {
@@ -15,7 +20,7 @@ footer{
     padding: 0;
     height: 0;
     border: none;
-    box-shadow: 0 0 3px 1px black;
+    box-shadow: 0 0 4px 1px black;
    }
 
 .bt {
@@ -36,17 +41,17 @@ footer{
    }
 
 .mname {
-    color: red;
+    color: rgb(39, 34, 34);
     padding: 10;
     }
 
-    gold {
+    .gold {
         margin: 20px 0;
         display: flex;
         flex-flow: column;
         align-items: center;
         justify-content: center;
-        padding: 6vw 0;
+        padding: 0vw 0;
         background: radial-gradient(ellipse at center, #443501 0%,#000000 100%);
         box-shadow: 0 4px 12px rgba(0,0,0,0.2), 0 16px 20px rgba(0,0,0,0.2);
     }
@@ -63,7 +68,7 @@ footer{
         text-shadow: -1px 0 1px #c6bb9f, 0 1px 1px #c6bb9f, 5px 5px 10px rgba(0, 0, 0, 0.4), -5px -5px 10px rgba(0, 0, 0, 0.4);
     }
     .gold span {
-        font-size: 3vw;
+        font-size: 2vw;
     }
     .gold span:before {
         content: attr(data-double);
@@ -77,3 +82,7 @@ footer{
         text-shadow: none;
     }
 h3{color: #ffecb3;}
+h4{color: #ffecb3;}
+
+.sm{display: flex;
+    justify-content: right;}
