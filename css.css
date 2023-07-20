@@ -120,11 +120,26 @@ th, tr {border: 3px solid gold;}
     cursor: pointer;
 }
 
-@media(max-width: 1500px){
+@media(max-width: 500px){
     h1{
-        font: 15px;
+        font-size: 20px;
     }
-    main{
-        margin 5px
+    .avatar{
+        width: 150px;
+    }
+    .main {
+        text-align: left;
+        font-size: small;
+    }
+    table{
+        width: 300px;
+    }
+
+    .bio, .hobby, .expr, .connect{
+        margin: 15px;
+    }
+
+    .friendly{
+        font-size: small;
     }
 }
