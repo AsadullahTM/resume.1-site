@@ -142,4 +142,10 @@ th, tr {border: 3px solid gold;}
     .friendly{
         font-size: small;
     }
+
+    .icons:hover{
+        width: none;
+        opacity: none;
+        transition: none;
+    }
 }
