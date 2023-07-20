@@ -42,9 +42,26 @@ footer{
     
 }
 
-.expr, .bio, .hobby{
-    margin: 50px;
+.icons:hover{
+    width: 100px;
+    opacity: 0.4;
+    transition: all 2s;
+}
+
+.avatar{
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: -2px -2px gold;
     
+}
+
+.expr, .bio{
+    margin: 50px;
+    list-style: none;
+}
+
+.hobby{
+margin-left: 50px;
 }
 
 .connect{
@@ -52,9 +69,10 @@ footer{
     text-align: right;
 }
 
-.hobby{
-    list-style-position: inside;
-}
+  .hob{
+    list-style: none;
+    margin-left: 10px;
+  }  
 
 h1{
     text-align: center;
@@ -77,13 +95,27 @@ h4{
 table{
     table-layout: fixed;
     border-collapse: collapse;
-    border-spacing: ;
     border: 3px solid gold;
     width: 550px;
 }
 
+th, tr {border: 3px solid gold;}
 .friendly{
     text-align: center;
     text-transform: uppercase;
     word-spacing: 3px;
+}
+
+.btn{
+    background-color: grey;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 2px 2px gold;
+    
+}
+
+.btn:hover{
+    transition: all 10s;
+    width: 100px;
+    cursor: pointer;
 }
