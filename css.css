@@ -144,8 +144,8 @@ th, tr {border: 3px solid gold;}
     }
 
     .icons:hover{
-        width: none;
-        opacity: none;
+        width: inherit;
+        opacity: unset;
         transition: none;
     }
 }
