@@ -1,0 +1,151 @@
+body{
+    background-color: rgb(22, 22, 23); color: rgb(255, 255, 255);
+    margin: 0;
+
+}
+
+header{
+    background-color: rgb(144 146 149); color: black;
+    border: none;
+    box-shadow: 0 0 15px 3px rgb(144 146 149);
+
+}
+
+footer{
+    background-color: rgb(144 146 149); color: black;
+    border: none;
+    box-shadow: 0 0 15px 3px rgb(144 146 149);
+}
+
+.smh{
+    text-align: center;
+    color: rgb(57, 50, 14);
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 0;
+}
+
+.linkssm{
+    list-style-type: none;
+    margin-left: ;  
+    margin-right: 50px;
+    letter-spacing: 10px;
+    text-align: center;
+}
+
+.icons{
+    display: inline-block;
+    margin-top: 2px;
+    
+}
+
+.icons:hover{
+    width: 100px;
+    opacity: 0.4;
+    transition: all 2s;
+}
+
+.avatar{
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: -2px -2px gold;
+    
+}
+
+.expr, .bio{
+    margin: 50px;
+    list-style: none;
+}
+
+.hobby{
+margin-left: 50px;
+}
+
+.connect{
+    margin: 50px;
+    text-align: right;
+}
+
+  .hob{
+    list-style: none;
+    margin-left: 10px;
+  }  
+
+h1{
+    text-align: center;
+    color: gold;
+    letter-spacing: 5px;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: block;
+}
+
+h3{
+    color: #ffecb3;
+}
+
+h4{
+    color: #ffecb3;
+}
+
+table{
+    table-layout: fixed;
+    border-collapse: collapse;
+    border: 3px solid gold;
+    width: 550px;
+}
+
+th, tr {border: 3px solid gold;}
+.friendly{
+    text-align: center;
+    text-transform: uppercase;
+    word-spacing: 3px;
+}
+
+.btn{
+    background-color: grey;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 2px 2px gold;
+    
+}
+
+.btn:hover{
+    transition: all 10s;
+    width: 100px;
+    cursor: pointer;
+}
+
+@media(max-width: 500px){
+    h1{
+        font-size: 20px;
+    }
+    .avatar{
+        width: 150px;
+    }
+    .main {
+        text-align: left;
+        font-size: small;
+    }
+    table{
+        width: 300px;
+    }
+
+    .bio, .hobby, .expr, .connect{
+        margin: 15px;
+    }
+
+    .friendly{
+        font-size: small;
+    }
+
+    .icons:hover{
+        width: inherit;
+        opacity: unset;
+        transition: none;
+    }
+}
